@@ -20,8 +20,8 @@ export BASH_IT_THEME='dstarh'
 export GIT_HOSTING='git@git.domain.com'
 
 # Set my editor and git editor
-export EDITOR="vim"
-export GIT_EDITOR='vim'
+export EDITOR="subl -n -w"
+export GIT_EDITOR='subl -n -w'
 
 # Set the path nginx
 export NGINX_PATH='/opt/nginx'
