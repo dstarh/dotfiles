@@ -50,7 +50,7 @@ export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home
 export PLAY_HOME=/Users/dstarh/play-1.2.2
 export MAVEN_HOME=/Users/dstarh/apache-maven-3.0.3
 export PATH=$PATH:$MAVEN_HOME/bin:$PLAY_HOME:~/bin
-export MAVEN_OPTS="-Xmx1024M -XX:MaxPermSize=512M"
+export MAVEN_OPTS="-Xmx2048M -XX:PermSize=512M -XX:MaxPermSize=512M"
 export MAVEN_OPTS=" -Dexternal-config-location=classpath:empty_override.properties $MAVEN_OPTS"
 export MAVEN_OPTS="-noverify -javaagent:/Applications/ZeroTurnaround/JRebel/jrebel.jar -Drebel.jersey_plugin=true $MAVEN_OPTS"
 export MAVEN_OPTS=" -Djava.awt.headless=true $MAVEN_OPTS"
