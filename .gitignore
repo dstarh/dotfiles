@@ -43,3 +43,8 @@ javatmp
 play-1.2.2
 workspace
 VirtualBox VMs
+.gem
+.irb-history
+.rvm
+.zshenv
+ruby_tests

@@ -1,13 +1,12 @@
 #!/usr/bin/env bash
 
-# Load RVM, if you are using it
-[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
 
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/dstarh/.gem/ruby/1.8/bin:/opt/nginx/sbin
+
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/dstarh/.gem/ruby/1.8/bin
 
 
 # Add rvm gems and nginx to the path
-export PATH=$PATH:~/.gem/ruby/1.8/bin:/opt/nginx/sbin
+export PATH=$PATH:~/.gem/ruby/1.8/bin
 
 # Path to the bash it configuration
 export BASH_IT=$HOME/.bash_it
@@ -57,3 +56,5 @@ export MAVEN_OPTS=" -Djava.awt.headless=true $MAVEN_OPTS"
 export MAVEN_OPTS=" -Djava.io.tmpdir=/Users/dstarh/javatmp $MAVEN_OPTS"
 # Load Bash It
 source $BASH_IT/bash_it.sh
+# Load RVM, if you are using it
+[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
