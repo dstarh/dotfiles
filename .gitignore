@@ -20,6 +20,7 @@
 .jrebel
 .lesshst
 .m2
+.rnd
 .mplayer
 .psql_history
 .recently-used.xbel
@@ -41,6 +42,7 @@ applescripts
 eclipse
 javatmp
 play-1.2.2
+rails
 workspace
 VirtualBox VMs
 .gem
