@@ -1,0 +1,4 @@
+{
+	"last_test_run": "~/.rvm/bin/rvm-auto-ruby -Itest test/unit/helpers/posts_helper_test.rb -n 'test_tag_join'",
+	"last_test_working_dir": "/Users/dstarh/rails/blog"
+}

@@ -1,0 +1,9 @@
+{
+	"csv_per_file_setting":
+	[
+		{
+			"file": "/Users/dstarh/Documents/v2.0-import/pbfs-import-2012-10-15-final_for_qa.csv",
+			"use_header": true
+		}
+	]
+}
