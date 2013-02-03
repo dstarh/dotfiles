@@ -50,3 +50,16 @@ VirtualBox VMs
 .rvm
 .zshenv
 ruby_tests
+.eclipse_keyring
+.grails/
+.npm/
+.sh_history
+coffee/
+crontab
+foo.jpg
+grails/
+nails/
+node_modules/
+proj/
+python/
+sh/
