@@ -2,7 +2,7 @@
 
 
 
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/dstarh/.gem/ruby/1.8/bin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/dstarh/.gem/ruby/1.8/bin:/usr/local/sbin
 
 
 # Add rvm gems and nginx to the path
